@@ -22,6 +22,6 @@ Para ejecutar este programa, necesitas tener instalado:
 
 ## Cómo ejecutar el programa
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu local:
    ```bash
    git clone https://github.com/Carlassanchez24/IntroScanner.git
