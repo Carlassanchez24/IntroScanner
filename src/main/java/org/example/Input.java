@@ -15,20 +15,20 @@ public class Input {
             System.out.println("Nombre de usuario: ");
             String nombre = scanner.nextLine();
 
-
             System.out.println("Contraseña: ");
             String contrasenya = scanner.nextLine();
 
             if (nombre.equals(user) && contrasenya.equals(password)) {
                 System.out.println("Se ha autenticado con éxito");
                 autenticado = true;
-                contador = 3;
-            } else {
-                System.out.println("Usuario y/o contraseña inválido");
+                break;
             }
+
+            System.out.println("Usuario y/o contraseña inválido");
             contador++;
         }
-         if (!autenticado){
+
+        if (!autenticado) {
             System.out.println("Has excedido el número de intentos");
         }
         scanner.close();
